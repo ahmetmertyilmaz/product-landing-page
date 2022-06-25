@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Original Trombones">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css">
+    <title>Original Trombones</title>
+</head>
+
+<body>
+    <main>
+
+        <header id="header">
+            <img id="header-img"
+                src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                alt="Logo">
+            <!-- <a href="#"><img id="menu-cta" class="open-menu-button"
+                    src="https://img.icons8.com/ios-glyphs/30/000000/menu--v1.png" /></a> -->
+            <nav id="nav-bar">
+                <!-- <a href="#"><img id="close-menu" class="close-menu-button"
+                        src="https://img.icons8.com/ios-glyphs/30/000000/delete-sign.png" /></a> -->
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a class="nav-link" href="#features">Features</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="#how_it_works">How It Works</a></li>
+                    <li class="nav-list-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="form-section">
+            <h1 class="heading" class="">Handcrafted, home-made masterpieces</h1>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">
+                <input type="email" name="email" id="email" placeholder="Enter your email address">
+                <input type="submit" name="submit" id="submit" class="form-button" value="Get Started">
+            </form>
+        </section>
+        <section id="features">
+            <div class="image-wrapper">
+                <img id="image-1" src="https://img.icons8.com/color/96/000000/fire-element--v1.png" alt="Flame">
+                <img id="image-2" src="https://img.icons8.com/ios-filled/100/FD7E14/truck.png" alt="Truck">
+                <img id="image-3" src="https://img.icons8.com/ios-glyphs/90/FD7E14/full-battery.png" alt="Battery">
+            </div>
+            <article class="feature">
+                <h2 class="heading">Premium Materials</h2>
+                <p class="feature-description">Our trombones use the shiniest brass which is sourced locally. This will
+                    increase the longevity of
+                    your purchase.</p>
+            </article>
+            <article class="feature">
+                <h2 class="heading">Fast Shipping</h2>
+                <p class="feature-description">We make sure you recieve your trombone as soon as we have finished making
+                    it. We also provide free returns if you are not satisfied.</p>
+            </article>
+            <article class="feature">
+                <h2 class="heading">Quality Assurance</h2>
+                <p class="feature-description">For every purchase you make, we will ensure there are no damages or
+                    faults and we will check and test the pitch of your instrument.</p>
+            </article>
+        </section>
+        <section id="how_it_works">
+            <iframe id="video" width="420" height="315" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+            </iframe>
+        </section>
+        <section id="pricing">
+            <div class="tenor-trombone tier-1">
+                <h3 class="tier-heading">TENOR TROMBONE</h3>
+                <p><span class="price">600</span></p>
+                <ul>
+                    <li>Advantage 1</li>
+                    <li>Advantage 2</li>
+                    <li>Advantage 3</li>
+                    <li>Advantage 4</li>
+                </ul>
+                <button id="price-select-button-1" type="button">SELECT</button>
+            </div>
+            <div class="bass-trombone tier-2">
+                <h3 class="tier-heading">BASS TROMBONE</h3>
+                <p><span class="price">900</span></p>
+                <ul>
+                    <li>Advantage 1</li>
+                    <li>Advantage 2</li>
+                    <li>Advantage 3</li>
+                    <li>Advantage 4</li>
+                </ul>
+                <button id="price-select-button-2" type="button">SELECT</button>
+            </div>
+            <div class="valve-trombone tier-3">
+                <h3 class="tier-heading">VALVE TROMBONE</h3>
+                <p><span class="price">1200</span></p>
+                <ul>
+                    <li>Advantage 1</li>
+                    <li>Advantage 2</li>
+                    <li>Advantage 3</li>
+                    <li>Advantage 4</li>
+                </ul>
+                <button id="price-select-button-3" type="button">SELECT</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="footer-list">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="copyright">Copyright 2016, Original Trombones</p>
+    </footer>
+</body>
+
+</html>
