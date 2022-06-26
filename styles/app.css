@@ -32,7 +32,6 @@ header {
     left: 0;
 }
 
-
 h1 {
     font-size: 2.3rem;
     font-weight: 700;
@@ -54,8 +53,6 @@ header img {
     max-width: 300px;
 }
 
-
-
 .nav-list {
     margin-top: 1rem;
     display: flex;
@@ -69,8 +66,9 @@ header img {
 
 .nav-list a:hover,
 .nav-list a:active {
-    background-color: black;
-    color: white;
+    padding: 0 0.5rem;
+    background-color: yellow;
+    border-radius: 0.8rem;
 }
 
 .form-section {
@@ -156,7 +154,6 @@ input[type=email] {
     flex-direction: column;
     align-items: center;
     margin-bottom: 1rem;
-
 }
 
 .tier-3 {
@@ -228,7 +225,6 @@ footer li {
     display: inline-block;
     padding: 1rem;
 }
-
 
 .copyright {
     font-size: 1.2rem;
@@ -356,7 +352,6 @@ footer li {
         width: 70vw;
         display: flex;
         align-items: center;
-
     }
 
     #pricing {
@@ -376,8 +371,4 @@ footer li {
         align-items: center;
         margin: 1rem;
     }
-
-
-
-
 }
